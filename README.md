@@ -46,3 +46,13 @@ Algoritma klasifikasi digunakan untuk mempelajari pola dari fitur yang diekstrak
 
 - **Support Vector Classifier (SVC):**
     - **Alasan Penggunaan:** SVC adalah algoritma klasifikasi yang efektif, terutama pada dataset dengan dimensi fitur yang tinggi dan jumlah sampel yang moderat. SVC bekerja dengan menemukan hyperplane pemisah terbaik yang memiliki margin terbesar antara kelas-kelas. SVC dengan kernel non-linear (seperti 'rbf' yang digunakan di sini) mampu memisahkan data yang tidak dapat dipisahkan secara linear di ruang fitur asli dengan memproyeksikannya ke ruang berdimensi lebih tinggi. SVC sering kali memberikan kinerja yang baik pada masalah klasifikasi gambar berbasis fitur tradisional seperti HOG.
+
+## Hasil
+
+Setelah melalui tahap preprocessing, ekstraksi fitur HOG, dan pelatihan model SVC, model dievaluasi menggunakan data uji. Hasil evaluasi menunjukkan performa model dalam membedakan gambar kucing dan anjing.
+
+- **Akurasi:** [Masukkan nilai akurasi dari output kode Anda, contoh: 0.7525]
+- **Classification Report:** Memberikan metrik performa yang lebih rinci per kelas (precision, recall, f1-score). [Anda bisa menyalin output classification report di sini atau merangkumnya].
+- **Confusion Matrix:** Menunjukkan jumlah prediksi yang benar dan salah untuk setiap kelas. [Anda bisa menyalin output confusion matrix di sini].
+
+Hasil ini memberikan gambaran seberapa baik model SVC yang dilatih dengan fitur HOG mampu mengklasifikasikan gambar kucing dan anjing dari dataset uji. Akurasi menunjukkan proporsi gambar yang diklasifikasikan dengan benar secara keseluruhan.
